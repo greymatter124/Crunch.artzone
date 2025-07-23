@@ -1,0 +1,68 @@
+body {
+  background: black;
+  color: #0ff;
+  font-family: monospace;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 50px auto;
+  max-width: 600px;
+}
+
+a {
+  color: #f0f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  width: 200px;
+  margin: 20px 0;
+}
+
+.secret-link {
+  margin-top: 30px;
+}
+
+input {
+  padding: 10px;
+  font-family: monospace;
+  background: #000;
+  border: 1px solid #0ff;
+  color: #0ff;
+}
+
+button {
+  padding: 10px 20px;
+  font-family: monospace;
+  background: #0ff;
+  border: none;
+  cursor: pointer;
+}
+.spotify-embed {
+  margin: 30px auto;
+  max-width: 400px;
+}
+
+.banner {
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #0ff;
+  image-rendering: pixelated; /* keeps any pixel edges crisp */
+  width: 468px; /* adjust to your taste */
+  max-width: 90%;
+}
+
+.banner:hover {
+  border-color: #f0f;
+}
+button:hover {
+  background: #f0f;
+  color: #000;
+}
